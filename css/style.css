@@ -1,0 +1,45 @@
+body,html{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body { 
+  font-weight: bold; 
+  font-family: "Courier New"; 
+  font-size: 1.5rem;
+}
+body{
+  background-image:url('../images/bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main { 
+  position: relative; 
+}
+h1{
+  color: #000;
+  font-weight: 600;
+}
+#main div{
+  margin-top: 40px;
+  position: relative;
+}
+.overlay {
+  background: rgba(255, 255, 255, 0.65);
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+} 
+#input { 
+  border: 0; 
+  padding: 5px; 
+  border: 1px solid #000;
+  border-radius: 5px;
+}
